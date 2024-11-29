@@ -1,0 +1,68 @@
+body{
+  /* rgb(31, 31, 31) */
+  background-color: rgb(31, 31, 31);
+  color: white;
+  font-family: Tahoma;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.myDiv {
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(31, 31, 31);
+}
+
+.submit-button{
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 70%;
+  height: 40px;
+  margin-left: 20px;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+
+
+}
+
+.submit-button:active{
+  transform: translateY(2px);
+  }
+
+.submit-button:hover{
+background-color: rgba(225, 223, 223, 0.579);
+/* box-shadow: 5px 5px 15px rgb(78, 77, 77), 
+-5px 5px 15px rgb(78, 77, 77); */
+
+}
+
+table{
+  width: 100px;
+  border-collapse: collapse;
+
+}
+
+th, td{
+  border: 1px solid white;
+  max-width: 300px;
+  padding: 5px;
+}
+
+.myFile{
+  background-color: gray;
+  color: black;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 8%;
+  padding: 10px;
+}
