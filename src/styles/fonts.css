@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'medieval';
+  src: url('/fonts/MedievalTimeline-DOPRE.ttf') format('truetype'); /* Format is truetype for .ttf */
+  font-weight: 400; /* Set weight (e.g., normal, bold) */
+  font-style: normal; /* Set style (e.g., normal, italic) */
+}
